@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "lib": ["dom", "ES6", "ES2017", "ES2018", "esnext"],
+    "target": "es2018",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowUnusedLabels": true,
+    "module": "CommonJS",
+    "baseUrl": "src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "paths": {
+      "@entities/*": ["./entities/*"],
+      "@resolvers/*": ["./resolvers/*"],
+      "@utils/*": ["./utils/*"],
+      "@config/*": ["./config/*"],
+      "@interfaces/*": ["./interfaces/*"],
+      "@middleware/*": ["./middleware/*"]
+    }
+  }
+}
